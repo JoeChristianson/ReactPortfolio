@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+  }
+  
+  header ul>li{
+    list-style: none;
+    padding: 3em 2em;
+    cursor: pointer;
+  }
+
+  header ul>li:hover{
+    background-color: #9dc1c859;
+    color: var(--dark-hover-text-color);
+  }
+
+  .selected{
+    color: green;
+  }

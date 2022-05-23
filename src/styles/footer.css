@@ -1,0 +1,19 @@
+footer{
+    position: fixed;
+    bottom: 0%;
+    background-color: rgba(128, 128, 128, 0.326);
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+}
+
+footer ul li img{
+    height: 40px;
+}

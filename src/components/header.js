@@ -1,12 +1,13 @@
 import Logo from "./logo"
 import Nav from "./nav"
+import Name from "./name"
+import "../styles/header.css"
 
-function Header() {
+function Header({handleNavAction,section}) {
     return (
       <header className="header">
-          <Logo></Logo>
-          Header
-          <Nav></Nav>
+          <Nav handleNavAction={handleNavAction} section={section}></Nav>
+          <Name/>
       </header>
     );
   }
