@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import "../../styles/contact.css"
 import sendEmail from "../../utils/sendEmail.js"
 
-const FORM_ENDPOINT = ""
+const FORM_ENDPOINT = "https://formsubmit.co/joechristiansonwebdev@gmail.com"
 
 function Contact() {
   const [submitted,setSubmitted] = useState(false);
