@@ -8,7 +8,6 @@ import projects from "./data/projects"
 import background from "./images/background.jpg"
 
 function App() {
-  console.log(projects)
   const [section,setSection]=useState('about-me')
 
   const handleNavAction = (e)=>{

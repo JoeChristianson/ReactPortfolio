@@ -17,12 +17,9 @@ function Main({section,projects}) {
         return <Resume></Resume>
     }
   }
-  
-
-
 
     return (
-      <div className="logo-div">
+      <div className="main-div">
           <h2>{section}</h2>
       {showSection(section)}
       </div>

@@ -1,10 +1,11 @@
-
+import "../styles/dot.css"
 
 function Nav({handleNavAction,section}) {
     console.log(section)
     return (
       <div className="nav-div">
           {/* title for current section should be highlighted about me is the default */}
+          <div id="dot"></div>
         <ul>
             <li data-action="about-me"  className={section==="about-me"?"selected":""} onClick={handleNavAction}>
                 About Me

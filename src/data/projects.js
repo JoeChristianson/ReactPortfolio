@@ -9,11 +9,11 @@ class Project {
     }
 }
 
-new Project("Untitled Project Three","this is it");
-new Project("YouFood","this is it");
-new Project("Movie Generator","this is it");
-new Project("JabberBlocky","this is it");
-new Project("NHR Map","this is it");
-new Project("History Game","this is it");
+new Project("YouFood","this is it","youfoods.jpg");
+new Project("Movie Generator","this is it","movie-generator.png");
+new Project("JabberBlocky","this is it","jabberblocky.png");
+new Project("NHR Map","this is it","nhr-map.png");
+new Project("Wiki-History-API","This is it, the thing","wiki-events-api.png");
+new Project("Coding Quiz","this is it","coding-quiz.png");
 
 export default projects
