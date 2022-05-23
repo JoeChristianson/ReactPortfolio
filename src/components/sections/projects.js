@@ -11,8 +11,8 @@ function Projects({projects}) {
     setProject(projects[index])
   }
   
-  const listItems = projects.map((project,i) =>
-  <li data-index={i} onClick={handleProjectChange}>{project.name}</li>
+  const listItems = projects.map((item,i) =>
+  <li data-index={i} className={project.name===item.name?"selected":""} onClick={handleProjectChange}>{item.name}</li>
   );
   console.log(listItems)
 

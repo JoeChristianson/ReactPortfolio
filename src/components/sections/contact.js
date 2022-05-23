@@ -1,17 +1,20 @@
 import React, {useState} from "react"
 import "../../styles/contact.css"
+import sendEmail from "../../utils/sendEmail.js"
 
 const FORM_ENDPOINT = ""
 
 function Contact() {
   const [submitted,setSubmitted] = useState(false);
   const [name,setName] = useState("")
-  const handleSubmit = ()=>{
+  const handleSubmit = (e)=>{
+    e.preventDefault()
     const subName = document.querySelector("#name").value.split(" ")[0];
     setName(subName)
     setTimeout(()=>{
       setSubmitted(true)
     },100)
+    sendEmail("sent")
   }
   if (submitted){
     return(

@@ -20,7 +20,7 @@ function Main({section,projects}) {
 
     return (
       <div className="main-div">
-          <h2>{section}</h2>
+          {/* <h2>{section}</h2> */}
       {showSection(section)}
       </div>
     );

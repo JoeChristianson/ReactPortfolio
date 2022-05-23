@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Macondo&display=swap');
 :root{
   --main-bg-color:red;
   --main-accent-color:pink;
   --light-text-color:white;
   --dark-text-color:blue;
   --light-hover-background:grey;
+  --dark-hover-background:black;
   --dark-hover-text-color:black;
+  --light-hover-text-color:white;
 }
 
 
 body{
   margin: 0px;
+  font-family: 'Macondo', cursive;
 }
 

@@ -1,9 +1,10 @@
 
 .main-div{
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 80vh;
+    padding-top: 30px;
 }
 
 form{
@@ -24,9 +25,18 @@ textarea{
     width: 560px;
     resize: none;
     height: 400px;
+    max-height: 40vh;
 }
 
 button{
     background-color: white;
     color:#405056;
+}
+
+button:hover{
+    background-color: #deede8;
+}
+
+h2{
+    font-size: 3rem;
 }
