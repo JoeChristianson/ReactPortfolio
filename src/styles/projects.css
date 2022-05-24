@@ -3,10 +3,10 @@
     flex-direction: row;
     justify-content: center;
     font-family: Lato;
+    width: 95vw;
 }
 
 aside{
-
     background: rgba(0, 0, 0, 0.438);
     color: white;
     line-height: 1.3em;
@@ -14,6 +14,8 @@ aside{
     border-radius: 5px;
     font-family: 'Macondo', cursive;
 }
+
+
 
 ul{
     margin-block-start: 0em ;
@@ -25,12 +27,17 @@ li{
     cursor: pointer;
 }
 
+#projects-main>section{
+    width: 90%;
+    display: flex;
+}
+
 .project-image{
     width: 400px;
     height: 250px;
     border-radius: 2px;
     box-shadow: 1px 1px 5px 3px;
-    margin: 20px;
+    margin-bottom: 10px;
 }
 
 .project-image::after{
@@ -38,4 +45,14 @@ li{
     width: 100%;
     height: 100%;
     background-color: black;
+}
+
+.tech-div{
+    background:#44575df0;
+    width: 400px;
+}
+
+.badge{
+    height: 60px;
+    padding:5px;
 }

@@ -21,12 +21,12 @@ function Projects({projects}) {
 
     return (
       <div id="projects-main">
+          <Project project={project}></Project>
           <aside>
               <ul>
             {listItems}
                 </ul>
           </aside>
-          <Project project={project}></Project>
       </div>
     );
   }
