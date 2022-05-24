@@ -1,8 +1,13 @@
+import resumePDF from "../../other-files/resume.pdf"
+import "../../styles/resume.css"
+
 function  Resume() {
     return (
-      <header className="header">
+      <div>
+        <iframe src={resumePDF}>
 
-      </header>
+        </iframe>
+      </div>
     );
   }
   

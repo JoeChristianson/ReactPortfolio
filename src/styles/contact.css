@@ -19,6 +19,15 @@ input,textarea,button{
     border: none;
     box-shadow: 0 1px 1px 2px #0000003d;
     font-size: 1.3rem;
+    font-family: monospace;
+}
+
+#name{
+    width: 253px;
+}
+
+input[type="email"]{
+    width: 255px;
 }
 
 textarea{

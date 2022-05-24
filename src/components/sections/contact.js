@@ -2,13 +2,13 @@ import React, {useState} from "react"
 import "../../styles/contact.css"
 import sendEmail from "../../utils/sendEmail.js"
 
-const FORM_ENDPOINT = "https://formsubmit.co/joechristiansonwebdev@gmail.com"
+const FORM_ENDPOINT = "https://getform.io/f/b0b750d4-d233-4e80-b57a-c30d8e8d001e"
 
 function Contact() {
   const [submitted,setSubmitted] = useState(false);
   const [name,setName] = useState("")
   const handleSubmit = (e)=>{
-    e.preventDefault()
+    // e.preventDefault()
     const subName = document.querySelector("#name").value.split(" ")[0];
     setName(subName)
     setTimeout(()=>{
