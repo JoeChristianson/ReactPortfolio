@@ -11,7 +11,14 @@ function Project({project}) {
           <Tech tech={project.tech}></Tech>
           </section>
         <section className="right">
+          <h3>Summary</h3>
           <p>{project.description}</p>
+          <h3>Future Development</h3>
+          <p>{project.future}</p>
+          <div className="links-container">
+            <a href={project.live}>Live Site</a>
+            <a href={project.code}>Code</a>
+          </div>
         </section>
 
       </section>

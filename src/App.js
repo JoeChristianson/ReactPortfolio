@@ -8,7 +8,7 @@ import projects from "./data/projects"
 import background from "./images/background.jpg"
 
 function App() {
-  const [section,setSection]=useState('about-me')
+  const [section,setSection]=useState('projects')
 
   const handleNavAction = (e)=>{
     const action = e.target.dataset.action

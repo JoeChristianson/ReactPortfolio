@@ -1,20 +1,29 @@
 footer{
     position: fixed;
+    height: 70px;
     bottom: 0%;
     background-color: rgba(128, 128, 128, 0.326);
     width: 100%;
 }
 
 footer ul {
+    height: 70px;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 0;
+    align-items: center;
 }
 
-li{
+footer li{
     list-style: none;
+    font-size: 1.4rem;
+    padding: 0;
+    padding:auto;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 footer ul li img{
     height: 40px;
 }
+

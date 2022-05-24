@@ -19,6 +19,12 @@ function Footer() {
               ><img src={githubLogo}
             /></a>
           </li>
+          <li>
+            (701)-318-4338
+          </li>
+          <li>
+            joechristiansonwebdev@gmail.com
+          </li>
         </ul>
       </div>
       </footer>
