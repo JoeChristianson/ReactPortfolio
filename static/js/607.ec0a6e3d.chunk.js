@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[607],{607:function(a,e,t){a.exports=t.p+"static/media/handlebars.6c00b39665cf29aab161.png"}}]);

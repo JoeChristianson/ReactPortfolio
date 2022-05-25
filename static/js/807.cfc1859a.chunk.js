@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[807],{807:function(e,t,c){e.exports=c.p+"static/media/heroku.a1c919f4d092cb387465.png"}}]);

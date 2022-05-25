@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[860],{860:function(e,t,o){e.exports=o.p+"static/media/movie-generator.6f612d498948c53b5f15.png"}}]);

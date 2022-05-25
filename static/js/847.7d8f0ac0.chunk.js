@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[847],{847:function(e,t,c){e.exports=c.p+"static/media/mysql.ed4d0eff39bc49aa86c8.png"}}]);

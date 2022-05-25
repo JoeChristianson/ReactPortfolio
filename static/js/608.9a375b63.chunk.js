@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[608],{608:function(e,t,c){e.exports=c.p+"static/media/sequelize.8c389dc392d00f76753b.png"}}]);

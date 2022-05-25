@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[871],{871:function(e,o,t){e.exports=t.p+"static/media/youfoods.29e7b7386d1a6e210a21.jpg"}}]);

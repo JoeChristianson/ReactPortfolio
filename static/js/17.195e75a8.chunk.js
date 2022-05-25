@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[17],{17:function(e,t,a){e.exports=a.p+"static/media/wiki-events-api.81e1a9e93d6d5fa8e41a.png"}}]);
