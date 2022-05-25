@@ -27,3 +27,66 @@ footer ul li img{
     height: 40px;
 }
 
+
+
+
+
+@media only screen and (max-width:1000px){
+    #about-me-section{
+        flex-direction: column;
+    }
+
+    .main-div:hover #about-me-section{
+        transform: unset;
+    }
+
+    #about-me-section p{
+    font-size: 1rem;
+    width: 70vw;
+    transform: unset;
+    transform: translateX(-10px);
+    box-sizing: border-box;
+    }
+
+    #avatar{
+        transform: unset;
+
+    }
+
+    .main-div:hover #avatar{
+        transform: translate(100px,-600px);
+        opacity:1
+    }
+
+    .h-spacer{
+        margin: 10px 0px;
+    }
+
+    footer{
+        height: unset;
+    }
+
+    #social-links{
+        display: flex;
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    footer ul{
+        position: fixed;
+    display: flex;
+    bottom: 0;
+    justify-content: space-around;
+    align-items: flex-start;
+    }
+
+
+
+    footer ul li img{
+        height: 40px;
+    }
+
+    .contact-item{
+        display: none;
+    }
+}

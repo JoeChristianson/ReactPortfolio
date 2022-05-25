@@ -48,6 +48,7 @@ aside li:hover{
 
 .project-image{
     width: 400px;
+    max-width: 70vw;
     height: 250px;
     border-radius: 2px;
     box-shadow: 1px 1px 5px 3px;
@@ -67,6 +68,7 @@ aside li:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 60vw;
 }
 
 .badge{
@@ -106,5 +108,11 @@ h3{
     #projects-main>section{
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    aside{
+        display: none;
     }
 }

@@ -75,16 +75,28 @@
     }
 
     footer{
-        height: auto;
+        height: unset;
+    }
+
+    #social-links{
+        display: flex;
+        height: 100%;
+        justify-content: space-around;
     }
 
     footer ul{
-        height: auto;
+        position: fixed;
+    display: flex;
+    bottom: 45px;
+    justify-content: space-around;
+    align-items: flex-start;
     }
 
     footer ul{
         position: fixed;
         bottom: 0;
+        width:100%;
+        height:unset;
     }
 
     footer ul li img{

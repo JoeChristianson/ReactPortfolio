@@ -32,6 +32,7 @@ input[type="email"]{
 
 textarea{
     width: 560px;
+    max-width: 80vw;
     resize: none;
     height: 400px;
     max-height: 40vh;
@@ -48,4 +49,14 @@ button:hover{
 
 h2{
     font-size: 3rem;
+}
+
+
+@media only screen and (max-width:600px) {
+    
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
 }
