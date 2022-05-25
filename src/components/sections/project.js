@@ -1,13 +1,21 @@
 import useImage from "../../utils/useImage";
 import Tech from "../tech.js"
+import ProjectsDropDown from "./project-drop-down";
+import useWindowDimensions from "../../utils/getDimensions";
 
-function Project({project}) {
+function Project({project,setProject,projects}) {
 
+    const {width} = useWindowDimensions()
+    console.log(width)
     const image = useImage(project.image)
     return (
       <section>
           <section className="left">
-            <h2>{project.name}</h2>
+
+            {width<630?(<ProjectsDropDown setProject={setProject} projects={projects}></ProjectsDropDown>):(            <h2>{project.name}</h2>)}
+
+
+
           <img className="project-image" src={image.image}></img>
           <Tech tech={project.tech}></Tech>
           <div className="links-container">

@@ -68,7 +68,7 @@ aside li:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 60vw;
+    max-width: 70vw;
 }
 
 .badge{
@@ -88,11 +88,19 @@ aside li:hover{
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 10px;
+    background: #4d6066;
+    margin-top: 20px;
+    width: 400px;
+    max-width: 70vw;
+    box-sizing: border-box;
 }
 
 .links-container a{
     font-size: 1.4rem;
     margin: 0 10px;
+    color: white;
+    font-weight: bold;
 }
 
 h3{
@@ -102,6 +110,35 @@ h3{
 #projects-main h2{
     font-size: 2rem;
     margin-top: 0;
+}
+
+.left>section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+select{
+
+    font-size: 2rem;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+select:focus-visible{
+    outline: none;
+}
+
+option{
+    background: #ddeaeb;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media only screen and (max-width:1100px) {

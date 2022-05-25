@@ -2,6 +2,7 @@
 import Project from "./project";
 import React, {useState} from "react";
 import "../../styles/projects.css"
+import ProjectsDropDown from "./project-drop-down";
 
 function Projects({projects}) {
   const [project,setProject] = useState(projects[0])
@@ -17,7 +18,7 @@ function Projects({projects}) {
 
     return (
       <div id="projects-main">
-          <Project project={project}></Project>
+          <Project projects={projects} setProject={setProject} project={project}></Project>
           <aside>
               <ul>
             {listItems}
