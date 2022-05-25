@@ -45,3 +45,12 @@ header{
       font-size: 1.7em;
     }
   }
+
+  @media only screen and (max-width:1000px){
+    header ul>li[data-action]{
+      font-size: 0.8rem !important;
+    }
+    h1{
+      display: none;
+    }
+  }

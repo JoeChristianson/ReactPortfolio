@@ -38,44 +38,54 @@ const youFoods = new Project("YouFoods",
 "https://github.com/JoeChristianson/Food_Pantry_Map",""
 );
 
-youFoods.description = `For this application, we created an online website in which users can track, contribute to, and set up various food shelves. Immediately upon loading the website, a map is generated using google maps that centers on the users location. Various cherry markers pop up that show nearby food shelters that other users have created. Clicking a marker will display information about that particular food shelf like its name, address, and the supplies that it needs. Users can choose to register and create a username and password that are stored within the application's database. They can use this login information to create a new food shelter and request supplies. A new marker will then be generated for the address that they provided. For each food shelf created, the user that created it can edit and post new requests that are then updated on their marker information.`
-youFoods.future = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+youFoods.description = `I developed this web app along with two fellow University of Minnesota bootcamp students for our first full-stack group project. The concept came from a brief experience volunteering with a food shelf and recalling there not being a system for various food shelves to post what supplies they are in need of on a central site. You Foods meets this need. Food shelves can register their locations and post and delete requests for various items. These food shelves appear on a map on the landing page so that donors can find locations to drop off specific items. The results on the map can also be filtered by item. `
+youFoods.future = "The next stage involves reaching out to food shelves to see if this is a service that they would find useful. If so, we will be looking for feedback on design and suggestions for additional features."
 
 
 const movieGenerator = new Project("Movie Generator","this is it","movie-generator.png",["javascript","bootstrap","html"],[sarahTurner,ethanJohnson,jacksonWilliams],"https://amplifyrebel.github.io/movie-generator/","https://github.com/AmplifyRebel/movie-generator","");
-movieGenerator.description = `I developed this site along with three fellow classmates in University of Minnesota’s full-stack bootcamp for our first group project. The project was meant as an exercise in the use of third party APIs. We utilized Open Movie Database for movie details and an API created by _________ for the selection of a random movie. 
+movieGenerator.description = `I developed this site along with three fellow classmates in University of Minnesota’s full-stack bootcamp for our first group project. The project was meant as an exercise in the use of third party APIs. We utilized Open Movie Database for movie details and an API developed by Ketuman Vishwakarma ( https://github.com/k2maan) for the selection of a random movie. 
 
 I worked with the API calls and wrote the majority of the Javascript. My teammates primarily worked on the html and styling. They employed Bulma for a CSS framework.
 
-The Movie Generator allows the user to sift through random movies, look over their details and decide whether or not to add them to a watch list. The watch list itself can be filtered and sorted by various parameters. After watching the movie, the user can give it a star rating, adding it to its previously watched list.`
+The Movie Generator allows the user to sift through random movies, look over their details and decide whether or not to add them to a watch list. The watch list itself can be filtered and sorted by various parameters. After watching the movie, the user can give it a star rating, adding it to its previously watched list.
+`
 
+movieGenerator.future = `The Random Movie API that we employed had a significant dataset, but a larger one would be needed. Thus, a new Random movie API should be made from scratch using a webscraper such as puppeteer or an existing dataset. 
 
-movieGenerator.future = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+Currently all data is being stored locally. A backend should be created with a database and user log so users can access their watch list across devices. 
 
+Finally, there remain issues with design responsiveness, and some choices need to be made regarding the mobile experience.
+`
 
 const jabberBlocky = new Project("JabberBlocky","this is it","jabberblocky.png",
 ["html","javascript","node","express","mysql","sequelize"],[],"https://jabberblocky.herokuapp.com/","https://github.com/JoeChristianson/JabberBlocky","");
-jabberBlocky.description = `JabberBlocky is a multi-user tech blog site for developers. The basic features of such a site, including registration, log in, posting, commenting, etc. are available for users.
+jabberBlocky.description = `This tech blog site was developed from scratch for a University of Minnesota Bootcamp assignment. It has user authentication, a minimalist user interface, and allows for CRUD operations on three different models. The user can register, log-in, add posts, view other user’s posts and comment on posts. `
 
-Bcrypt, sequelize, express, dotenv and mysql were all employed in the project.
-`
-jabberBlocky.future = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+jabberBlocky.future = `A new color scheme and sleeker templates will be added to the site, mimicking stereotypical text-editors familiar to developers. User’s will be able to follow and unfollow other users. Users will be able to alter their profile, adding a bio and links to github, linked in, etc.. Also, posts will be capable of being tagged for searches by other users. `
 
 const nhrMap = new Project("NHR Map","this is it","nhr-map.png",[
     "html","javascript","node","google-maps-api","puppeteer","heroku"
 ],[],"https://nhr-map.herokuapp.com/","https://github.com/JoeChristianson/NHR-MAP","");
-nhrMap.future = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
+nhrMap.description = `This map was developed as a personal side project when I was first learning node. The user can search for National Historic Registry Sites by County and State. They populate on a google map along with a picture and a link to their wikipedia page and a link to directions. The data is scraped from Wikipedia pages for individual counties’ historic sites. `
+
+nhrMap.future = `This was developed without the use of databases, express or any front-end frameworks, as I did not have any experience with them at the time. I plan to refactor the entire app and use a MERN stack. Additional features will be added, including the ability of users to save which sites they’ve been to.
+`
 
 
 const wikiHistoryAPI = new Project("Wiki-History-API","This is it, the thing","wiki-events-api.png",[
     "node","puppeteer","heroku"
 ],[],"https://wiki-events-api.herokuapp.com/","https://github.com/JoeChristianson/HistoryAPI","");
-wikiHistoryAPI.future = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+wikiHistoryAPI.description = `This API is for historical events by year. With year as a search parameter, API will return events, births and deaths within such year. Each item will also give other properties of the item such as event type or persons involved, along with links to the relevant wikipedia pages.`
+wikiHistoryAPI.future = `A landing page needs to be added that gives documentation for the API. Further thought is needed on what purpose such an API would serve, so as to plan future development.
+`
 
 const codingQuiz = new Project("Coding Quiz","this is it","coding-quiz.png",[
     "html","javascript","css"
 ],[],"https://joechristianson.github.io/CodingQuiz/","https://github.com/JoeChristianson/CodingQuiz","");
-codingQuiz.future = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-
+codingQuiz.description = `This application is a hard-coded quiz application that offers a timed ten question long test on some web development concepts. The application uses html, css, and javascript, all vanilla and is purely front-end. It was an early activity for the University of Minnesota Full-Stack bootcamp and was developed from scratch.
+`
+codingQuiz.future = `With a few days work, this could be turned into a full-stack application where users can write their own custom quizzes, and store quiz-takers scores. 
+`
 export default projects

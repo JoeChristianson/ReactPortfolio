@@ -22,11 +22,11 @@ function Main({section,projects}) {
       <div className="main-div">
           {/* <h2>{section}</h2> */}
       {showSection(section)}
-      <div id="web-dev-logo">
+      {/* <div id="web-dev-logo">
 <h3>&lt;web&gt;</h3>
 <h3> &nbsp;&nbsp;&nbsp;    &lt;dev&gt;</h3>
 
-</div>
+</div> */}
       </div>
     );
   }

@@ -41,3 +41,57 @@
 .main-div:hover #about-me-section{
     transform: translateX(-200px);
 }
+
+
+@media only screen and (max-width:1000px){
+    #about-me-section{
+        flex-direction: column;
+    }
+
+    .main-div:hover #about-me-section{
+        transform: unset;
+    }
+
+    #about-me-section p{
+    font-size: 1rem;
+    width: 70vw;
+    transform: unset;
+    transform: translateX(-10px);
+    box-sizing: border-box;
+    }
+
+    #avatar{
+        transform: unset;
+
+    }
+
+    .main-div:hover #avatar{
+        transform: translate(100px,-600px);
+        opacity:1
+    }
+
+    .h-spacer{
+        margin: 10px 0px;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    footer ul{
+        height: auto;
+    }
+
+    footer ul{
+        position: fixed;
+        bottom: 0;
+    }
+
+    footer ul li img{
+        height: 10px;
+    }
+
+    .contact-item{
+        display: none;
+    }
+}
