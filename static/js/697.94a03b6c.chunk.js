@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[697],{697:function(e,o,t){e.exports=t.p+"static/media/mongoose.77766e8d47056f7ee701.png"}}]);
