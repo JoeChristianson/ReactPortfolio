@@ -74,6 +74,7 @@ aside li:hover{
 .badge{
     height: 60px;
     padding:5px;
+    position: relative;
 }
 
 .right p{

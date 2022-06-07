@@ -26,8 +26,19 @@ class Collaborator {
 const fongChang = new Collaborator("Fong","Chang","https://github.com/fchang1720","https://fchang1720.github.io/My-portfolio/")
 const bradyMavetz = new Collaborator("Brady","Mavetz","https://github.com/BMavetz","https://github.com/BMavetz")
 const sarahTurner = new Collaborator("Sarah","Turner","https://github.com/smturner","https://smturner.github.io/portfolio/")
-const ethanJohnson = new Collaborator("Ethan","Johnson","https://github.com/AmplifyRebel","")
-const jacksonWilliams = new Collaborator("Jackson","Williams","https://github.com/jackbradwilliams","")
+const ethanJohnson = new Collaborator("Ethan","Johnson","https://github.com/AmplifyRebel",null)
+const jacksonWilliams = new Collaborator("Jackson","Williams","https://github.com/jackbradwilliams",null)
+const bretBanger = new Collaborator("Bret","Banger","https://github.com/Banger484","https://banger484.github.io/react-professional-portfolio/")
+const aaronBelzer = new Collaborator("Aaron","Belzer","https://github.com/abelzer09",null)
+const carolynNgo = new Collaborator("Carolyn","Ngo","https://github.com/carolynngo11","https://carolynngo11.github.io/my-react-portfolio/")
+
+const inventoryPlus = new Project("Inventory Plus","","inventory-plus.png",[
+    "javascript","node","express","react","mongoose","css","apollo","heroku"
+],[bretBanger,aaronBelzer,carolynNgo],"https://inventoryplus.herokuapp.com/","https://github.com/Banger484/inventory-plus","")
+
+inventoryPlus.description = "Inventory+ is your go to application for managing your inventory. With this application you will be able to easily add your enterprise, add employees,  add products, and track your inventories movement from purchase through order fulfillment to your customer and run detailed reports. This is a final project for the U of M full-stack bootcamp, which required a full implementation of the MERN stack."
+
+inventoryPlus.future = "There is a lot of additional functionality to add, including, but not limited to: search fields for product/order guides, more form validation for user signup and adding new products, expanding on reporting, incorporating financials and financial reporting, styling/sizing for smaller devices, Email reports and product journey updates from purchase order to fulfillment."
 
 const youFoods = new Project("YouFoods",
 "this",
