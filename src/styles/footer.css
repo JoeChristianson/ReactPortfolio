@@ -83,6 +83,8 @@ footer ul li img{
     bottom: 0;
     justify-content: space-around;
     align-items: flex-start;
+    margin-bottom: 0;
+    height:55px
     }
 
 
@@ -92,6 +94,10 @@ footer ul li img{
     }
 
     .contact-item{
+        display: none;
+    }
+
+    footer li:last-child{
         display: none;
     }
 }

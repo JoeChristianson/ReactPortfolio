@@ -1,11 +1,4 @@
 
-.main-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 80vh;
-    padding-top: 30px;
-}
 
 form{
     display: flex;

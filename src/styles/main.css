@@ -2,8 +2,23 @@ h2{
     text-align: center;
 }
 
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    padding-top: 30px;
+}
+
 #web-dev-logo{
     display: absolute;
     top:0;
     left:0;
+}
+
+@media only screen and (max-width:1000px){
+    .main-div{
+        height:85vh
+    }
 }
