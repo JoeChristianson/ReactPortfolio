@@ -36,7 +36,7 @@ const inventoryPlus = new Project("Inventory Plus","","inventory-plus.png",[
     "javascript","node","express","react","mongoose","css","apollo","heroku"
 ],[bretBanger,aaronBelzer,carolynNgo],"https://inventoryplus.herokuapp.com/","https://github.com/Banger484/inventory-plus","")
 
-inventoryPlus.description = "Inventory+ is your go to application for managing your inventory. With this application you will be able to easily add your enterprise, add employees,  add products, and track your inventories movement from purchase through order fulfillment to your customer and run detailed reports. This is a final project for the U of M full-stack bootcamp, which required a full implementation of the MERN stack."
+inventoryPlus.description = "Inventory+ is your go to application for managing your inventory. With this application you will be able to easily add your enterprise, add employees,  add products, and track your inventories movement from purchase through order fulfillment to your customer and run detailed reports. This is a final project for the U of M full-stack bootcamp, which required a full implementation of the MERN stack. To log in to a dummy account: {email:Bob@aol.com,password:password1234}"
 
 inventoryPlus.future = "There is a lot of additional functionality to add, including, but not limited to: search fields for product/order guides, more form validation for user signup and adding new products, expanding on reporting, incorporating financials and financial reporting, styling/sizing for smaller devices, Email reports and product journey updates from purchase order to fulfillment."
 

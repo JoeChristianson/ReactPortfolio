@@ -2,7 +2,7 @@ footer{
     position: fixed;
     height: 70px;
     bottom: 0%;
-    background-color: rgba(255, 255, 255, 0.78);
+    background-color: #edf4f7;
     width: 100%;
 }
 
@@ -14,6 +14,7 @@ footer ul {
 }
 
 footer li{
+    color:black;
     list-style: none;
     font-size: 1.4rem;
     padding: 0;
@@ -21,6 +22,10 @@ footer li{
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+}
+
+footer a{
+    color:black;
 }
 
 footer ul li img{

@@ -25,6 +25,9 @@ function Footer() {
           <li className="contact-item">
             joechristiansonwebdev@gmail.com
           </li>
+          <li>
+          <a href="https://github.com/JoeChristianson/ReactPortfolio">portfolio code</a>
+          </li>
         </ul>
       </div>
       </footer>
