@@ -9,6 +9,7 @@ function Tech({tech}) {
 
     return (
       <div className="tech-div">
+        <h3>Uses</h3>
           {badges}
       </div>
     );

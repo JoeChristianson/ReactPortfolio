@@ -2,6 +2,7 @@ import useImage from "../../utils/useImage";
 import Tech from "../tech.js"
 import ProjectsDropDown from "./project-drop-down";
 import useWindowDimensions from "../../utils/getDimensions";
+import { Collaborator } from "../collaborator";
 
 function Project({project,setProject,projects}) {
 
@@ -28,8 +29,14 @@ function Project({project,setProject,projects}) {
           <p>{project.description}</p>
           <h3>Future Development</h3>
           <p>{project.future}</p>
+        {project.collaborators[0]?(<section>
+            <h3>Collaborators</h3>
+            <p>{project.collaborators.map((c)=>{
+              return(<Collaborator c={c}/>)
+            })}</p>
+        </section>):null}
         </section>
-
+        
       </section>
     );
   }

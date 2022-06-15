@@ -32,7 +32,7 @@ const bretBanger = new Collaborator("Bret","Banger","https://github.com/Banger48
 const aaronBelzer = new Collaborator("Aaron","Belzer","https://github.com/abelzer09",null)
 const carolynNgo = new Collaborator("Carolyn","Ngo","https://github.com/carolynngo11","https://carolynngo11.github.io/my-react-portfolio/")
 
-const inventoryPlus = new Project("Inventory Plus","","inventory-plus.png",[
+const inventoryPlus = new Project("Inventory+","","inventory-plus.png",[
     "javascript","node","express","react","mongoose","css","apollo","heroku"
 ],[bretBanger,aaronBelzer,carolynNgo],"https://inventoryplus.herokuapp.com/","https://github.com/Banger484/inventory-plus","")
 

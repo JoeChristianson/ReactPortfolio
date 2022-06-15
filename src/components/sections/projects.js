@@ -20,6 +20,7 @@ function Projects({projects}) {
       <div id="projects-main">
           <Project projects={projects} setProject={setProject} project={project}></Project>
           <aside>
+            <h3>Projects:</h3>
               <ul>
             {listItems}
                 </ul>
