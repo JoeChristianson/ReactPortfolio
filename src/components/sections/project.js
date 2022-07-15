@@ -16,8 +16,10 @@ function Project({project,setProject,projects}) {
             {width<630?(<ProjectsDropDown setProject={setProject} projects={projects}></ProjectsDropDown>):(            <h2>{project.name}</h2>)}
 
 
-
+            <a href={project.live}>
+              
           <img className="project-image" src={image.image}></img>
+            </a>
           <Tech tech={project.tech}></Tech>
           <div className="links-container">
             <a href={project.live}>Live Site</a>
