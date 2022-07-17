@@ -28,7 +28,22 @@ function Project({project,setProject,projects}) {
           </section>
         <section className="right">
           <h3>Summary</h3>
-          <p>{project.description}</p>
+          <p>{project.description}. 
+          <br></br><br></br>
+          <a href={project.live}>
+            Visit the site&nbsp;  
+            </a>
+            to demo the app or feel free to&nbsp; 
+            <a href={project.code}>
+            review the code.
+
+            </a>
+            </p>
+          {project.role?(
+          <>
+          <h3>Role</h3>
+          <p>{project.role}</p>
+          </>):null}
           <h3>Future Development</h3>
           <p>{project.future}</p>
         {project.collaborators[0]?(<section>

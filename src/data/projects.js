@@ -37,7 +37,7 @@ const inventoryPlus = new Project("Inventory+","","inventory-plus.png",[
 ],[bretBanger,aaronBelzer,carolynNgo],"https://inventoryplus.herokuapp.com/","https://github.com/Banger484/inventory-plus","")
 
 inventoryPlus.description = "Inventory+ is your go to application for managing your inventory. With this application you will be able to easily add your enterprise, add employees,  add products, and track your inventories movement from purchase through order fulfillment to your customer and run detailed reports. This is a final project for the U of M full-stack bootcamp, which required a full implementation of the MERN stack. To log in to a dummy account: {email:eRandolf@supply-town.com, password:RedNose12}"
-
+inventoryPlus.role = "On this project I created the models, data analysis, most GraphQL queries and mutations, charts, uploading photos to AWS, user authentication, theming, some react components. "
 inventoryPlus.future = "There is a lot of additional functionality to add, including, but not limited to: search fields for product/order guides, more form validation for user signup and adding new products, expanding on reporting, incorporating financials and financial reporting, styling/sizing for smaller devices, Email reports and product journey updates from purchase order to fulfillment."
 
 const youFoods = new Project("YouFoods",
@@ -51,7 +51,7 @@ const youFoods = new Project("YouFoods",
 
 youFoods.description = `I developed this web app along with two fellow University of Minnesota bootcamp students for our first full-stack group project. The concept came from a brief experience volunteering with a food shelf and recalling there not being a system for various food shelves to post what supplies they are in need of on a central site. You Foods meets this need. Food shelves can register their locations and post and delete requests for various items. These food shelves appear on a map on the landing page so that donors can find locations to drop off specific items. The results on the map can also be filtered by item. `
 youFoods.future = "The next stage involves reaching out to food shelves to see if this is a service that they would find useful. If so, we will be looking for feedback on design and suggestions for additional features."
-
+youFoods.role = "I created the initial configuration, database models, queries, and mutations, controllers, and sidebar. I also was the project manager."
 
 const movieGenerator = new Project("Movie Generator","this is it","movie-generator.png",["javascript","bootstrap","html"],[sarahTurner,ethanJohnson,jacksonWilliams],"https://amplifyrebel.github.io/movie-generator/","https://github.com/AmplifyRebel/movie-generator","");
 movieGenerator.description = `I developed this site along with three fellow classmates in University of Minnesota’s full-stack bootcamp for our first group project. The project was meant as an exercise in the use of third party APIs. We utilized Open Movie Database for movie details and an API developed by Ketuman Vishwakarma ( https://github.com/k2maan) for the selection of a random movie. 
@@ -60,7 +60,7 @@ I worked with the API calls and wrote the majority of the Javascript. My teammat
 
 The Movie Generator allows the user to sift through random movies, look over their details and decide whether or not to add them to a watch list. The watch list itself can be filtered and sorted by various parameters. After watching the movie, the user can give it a star rating, adding it to its previously watched list.
 `
-
+movieGenerator.role = "I implemented the APIs and wrote almost all of the logic. "
 movieGenerator.future = `The Random Movie API that we employed had a significant dataset, but a larger one would be needed. Thus, a new Random movie API should be made from scratch using a webscraper such as puppeteer or an existing dataset. 
 
 Currently all data is being stored locally. A backend should be created with a database and user log so users can access their watch list across devices. 
