@@ -84,13 +84,13 @@ nhrMap.future = `This was developed without the use of databases, express or any
 `
 
 
-const wikiHistoryAPI = new Project("Wiki-History-API","This is it, the thing","wiki-events-api.png",[
-    "node","puppeteer","heroku"
-],[],"https://wiki-events-api.herokuapp.com/","https://github.com/JoeChristianson/HistoryAPI","");
+// const wikiHistoryAPI = new Project("Wiki-History-API","This is it, the thing","wiki-events-api.png",[
+//     "node","puppeteer","heroku"
+// ],[],"https://wiki-events-api.herokuapp.com/","https://github.com/JoeChristianson/HistoryAPI","");
 
-wikiHistoryAPI.description = `This API is for historical events by year. With year as a search parameter, API will return events, births and deaths within such year. Each item will also give other properties of the item such as event type or persons involved, along with links to the relevant wikipedia pages.`
-wikiHistoryAPI.future = `A landing page needs to be added that gives documentation for the API. Further thought is needed on what purpose such an API would serve, so as to plan future development.
-`
+// wikiHistoryAPI.description = `This API is for historical events by year. With year as a search parameter, API will return events, births and deaths within such year. Each item will also give other properties of the item such as event type or persons involved, along with links to the relevant wikipedia pages.`
+// wikiHistoryAPI.future = `A landing page needs to be added that gives documentation for the API. Further thought is needed on what purpose such an API would serve, so as to plan future development.
+// `
 
 const codingQuiz = new Project("Coding Quiz","this is it","coding-quiz.png",[
     "html","javascript","css"
