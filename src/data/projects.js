@@ -68,11 +68,11 @@ Currently all data is being stored locally. A backend should be created with a d
 Finally, there remain issues with design responsiveness, and some choices need to be made regarding the mobile experience.
 `
 
-const jabberBlocky = new Project("JabberBlocky","this is it","jabberblocky.png",
-["html","javascript","node","express","mysql","sequelize"],[],"https://jabberblocky.herokuapp.com/","https://github.com/JoeChristianson/JabberBlocky","");
-jabberBlocky.description = `This tech blog site was developed from scratch for a University of Minnesota Bootcamp assignment. It has user authentication, a minimalist user interface, and allows for CRUD operations on three different models. The user can register, log-in, add posts, view other user’s posts and comment on posts. `
+const pebbo = new Project("Pebbo",null,"pebbo.png",["node","react","express","mongoose","apollo","heroku"],[],"https://pebbo.herokuapp.com/","https://github.com/JoeChristianson/Pebbo",null)
 
-jabberBlocky.future = `A new color scheme and sleeker templates will be added to the site, mimicking stereotypical text-editors familiar to developers. User’s will be able to follow and unfollow other users. Users will be able to alter their profile, adding a bio and links to github, linked in, etc.. Also, posts will be capable of being tagged for searches by other users. `
+pebbo.description = "This is a positive psychology app that allows the user to test various habits' effects on aspects of their well-being. It also includes a queue and task module on its dashboard. It includes an extensive tutorial as well which goes through the majority of its features."
+
+pebbo.future = ""
 
 const nhrMap = new Project("NHR Map","this is it","nhr-map.png",[
     "html","javascript","node","google-maps-api","puppeteer","heroku"
