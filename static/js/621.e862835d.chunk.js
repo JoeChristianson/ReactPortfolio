@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[621],{621:function(e,t,o){e.exports=o.p+"static/media/stripegoose.3dc29bbc4946a8d5f825.png"}}]);
