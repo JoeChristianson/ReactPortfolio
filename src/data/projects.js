@@ -53,50 +53,28 @@ youFoods.description = `I developed this web app along with two fellow Universit
 youFoods.future = "The next stage involves reaching out to food shelves to see if this is a service that they would find useful. If so, we will be looking for feedback on design and suggestions for additional features."
 youFoods.role = "I created the initial configuration, database models, queries, and mutations, controllers, and sidebar. I also was the project manager."
 
-const movieGenerator = new Project("Movie Generator","this is it","movie-generator.png",["javascript","bootstrap","html"],[sarahTurner,ethanJohnson,jacksonWilliams],"https://amplifyrebel.github.io/movie-generator/","https://github.com/AmplifyRebel/movie-generator","");
-movieGenerator.description = `I developed this site along with three fellow classmates in University of Minnesota’s full-stack bootcamp for our first group project. The project was meant as an exercise in the use of third party APIs. We utilized Open Movie Database for movie details and an API developed by Ketuman Vishwakarma ( https://github.com/k2maan) for the selection of a random movie. 
-
-I worked with the API calls and wrote the majority of the Javascript. My teammates primarily worked on the html and styling. They employed Bulma for a CSS framework.
-
-The Movie Generator allows the user to sift through random movies, look over their details and decide whether or not to add them to a watch list. The watch list itself can be filtered and sorted by various parameters. After watching the movie, the user can give it a star rating, adding it to its previously watched list.
-`
-movieGenerator.role = "I implemented the APIs and wrote almost all of the logic. "
-movieGenerator.future = `The Random Movie API that we employed had a significant dataset, but a larger one would be needed. Thus, a new Random movie API should be made from scratch using a webscraper such as puppeteer or an existing dataset. 
-
-Currently all data is being stored locally. A backend should be created with a database and user log so users can access their watch list across devices. 
-
-Finally, there remain issues with design responsiveness, and some choices need to be made regarding the mobile experience.
-`
-
 const pebbo = new Project("Pebbo",null,"pebbo.png",["node","react","express","mongoose","apollo","heroku"],[],"https://pebbo.herokuapp.com/","https://github.com/JoeChristianson/Pebbo",null)
 
-pebbo.description = "This is a positive psychology app that allows the user to test various habits' effects on aspects of their well-being. It also includes a queue and task module on its dashboard. It includes an extensive tutorial as well which goes through the majority of its features."
+pebbo.description = "This is a positive psychology app that allows the user to test various habits' effects on aspects of their well-being. It also includes a queue and task module on its dashboard. It includes an extensive tutorial as well which goes through the majority of its features. I have been using it daily for almost the past year, but it has evolved signficantely month to month."
 
-pebbo.future = ""
+pebbo.future = "My plan is to put this out for beta testing amongst friends and family relatively soon."
+
+const stripeGoose = new Project("Stripegoose",null,"stripegoose.png",[
+    "mongoose","node","stripe","npm","typescript"
+],[],"https://joechristianson.github.io/CodingQuiz/","https://github.com/JoeChristianson/CodingQuiz","");
+stripeGoose.description = `
+    This npm package I put together for an internship. It handles stripe actions using a customerId value in a mongoose document's field. It encapsulates a lot of the stripe logic in an object's methods, which just requires a stripeId and model to instantiate. The package is written in typescript, and uses strong typing throughout
+`
+
+stripeGoose.future = `I plan to continue to add more methods month to month and integrate other ORMs.
+`
 
 const nhrMap = new Project("NHR Map","this is it","nhr-map.png",[
     "html","javascript","node","google-maps-api","puppeteer","heroku"
 ],[],"https://nhr-map.herokuapp.com/","https://github.com/JoeChristianson/NHR-MAP","");
 
-nhrMap.description = `This map was developed as a personal side project when I was first learning node. The user can search for National Historic Registry Sites by County and State. They populate on a google map along with a picture and a link to their wikipedia page and a link to directions. The data is scraped from Wikipedia pages for individual counties’ historic sites. `
+nhrMap.description = `This map was developed as a personal side project when I was first learning node. The user can search for National Historic Registry Sites by County and State. They populate on a google map along with a picture and a link to their wikipedia page and a link to directions. The data is scraped from Wikipedia pages for individual counties’ historic sites `
 
 nhrMap.future = `This was developed without the use of databases, express or any front-end frameworks, as I did not have any experience with them at the time. I plan to refactor the entire app and use a MERN stack. Additional features will be added, including the ability of users to save which sites they’ve been to.
-`
-
-
-// const wikiHistoryAPI = new Project("Wiki-History-API","This is it, the thing","wiki-events-api.png",[
-//     "node","puppeteer","heroku"
-// ],[],"https://wiki-events-api.herokuapp.com/","https://github.com/JoeChristianson/HistoryAPI","");
-
-// wikiHistoryAPI.description = `This API is for historical events by year. With year as a search parameter, API will return events, births and deaths within such year. Each item will also give other properties of the item such as event type or persons involved, along with links to the relevant wikipedia pages.`
-// wikiHistoryAPI.future = `A landing page needs to be added that gives documentation for the API. Further thought is needed on what purpose such an API would serve, so as to plan future development.
-// `
-
-const codingQuiz = new Project("Coding Quiz","this is it","coding-quiz.png",[
-    "html","javascript","css"
-],[],"https://joechristianson.github.io/CodingQuiz/","https://github.com/JoeChristianson/CodingQuiz","");
-codingQuiz.description = `This application is a hard-coded quiz application that offers a timed ten question long test on some web development concepts. The application uses html, css, and javascript, all vanilla and is purely front-end. It was an early activity for the University of Minnesota Full-Stack bootcamp and was developed from scratch.
-`
-codingQuiz.future = `With a few days work, this could be turned into a full-stack application where users can write their own custom quizzes, and store quiz-takers scores. 
 `
 export default projects
