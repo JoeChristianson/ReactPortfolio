@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_portfolio=self.webpackChunkreact_portfolio||[]).push([[506],{506:function(t,a,c){t.exports=c.p+"static/media/micstan.ad4b8fd74a487c339108.png"}}]);
