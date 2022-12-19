@@ -32,9 +32,20 @@ const bretBanger = new Collaborator("Bret","Banger","https://github.com/Banger48
 const aaronBelzer = new Collaborator("Aaron","Belzer","https://github.com/abelzer09",null)
 const carolynNgo = new Collaborator("Carolyn","Ngo","https://github.com/carolynngo11","https://carolynngo11.github.io/my-react-portfolio/")
 
+
+const micStan = new Project("Mic Stan","","micstan.png",[
+    "typescript","node","express","react","mongoose","css","heroku"
+],[],"https://inventoryplus.herokuapp.com/","https://github.com/JoeChristianson/MicStan","")
+
+micStan.description = "CMS developed primarily for performers with quick setup and very intuitive editing. The site currently has some active users"
+micStan.role = "I developed this individually. "
+micStan.future = "I will continue adding themes and additional components. I have started with some unit testing and am currently working towards full code coverage."
+
+
+
 const inventoryPlus = new Project("Inventory+","","inventory-plus.png",[
     "javascript","node","express","react","mongoose","css","apollo","heroku"
-],[bretBanger,aaronBelzer,carolynNgo],"https://inventoryplus.herokuapp.com/","https://github.com/Banger484/inventory-plus","")
+],[bretBanger,aaronBelzer,carolynNgo],"https://www.micstan.com/","https://github.com/Banger484/inventory-plus","")
 
 inventoryPlus.description = "Inventory+ is your go to application for managing your inventory. With this application you will be able to easily add your enterprise, add employees,  add products, and track your inventories movement from purchase through order fulfillment to your customer and run detailed reports. This is a final project for the U of M full-stack bootcamp, which required a full implementation of the MERN stack. To log in to a dummy account: {email:eRandolf@supply-town.com, password:RedNose12}"
 inventoryPlus.role = "On this project I created the models, data analysis, most GraphQL queries and mutations, charts, uploading photos to AWS, user authentication, theming, some react components. "
@@ -69,12 +80,12 @@ stripeGoose.description = `
 stripeGoose.future = `I plan to continue to add more methods month to month and integrate other ORMs.
 `
 
-const nhrMap = new Project("NHR Map","this is it","nhr-map.png",[
-    "html","javascript","node","google-maps-api","puppeteer","heroku"
-],[],"https://nhr-map.herokuapp.com/","https://github.com/JoeChristianson/NHR-MAP","");
+// const nhrMap = new Project("NHR Map","this is it","nhr-map.png",[
+//     "html","javascript","node","google-maps-api","puppeteer","heroku"
+// ],[],"https://nhr-map.herokuapp.com/","https://github.com/JoeChristianson/NHR-MAP","");
 
-nhrMap.description = `This map was developed as a personal side project when I was first learning node. The user can search for National Historic Registry Sites by County and State. They populate on a google map along with a picture and a link to their wikipedia page and a link to directions. The data is scraped from Wikipedia pages for individual counties’ historic sites `
+// nhrMap.description = `This map was developed as a personal side project when I was first learning node. The user can search for National Historic Registry Sites by County and State. They populate on a google map along with a picture and a link to their wikipedia page and a link to directions. The data is scraped from Wikipedia pages for individual counties’ historic sites `
 
-nhrMap.future = `This was developed without the use of databases, express or any front-end frameworks, as I did not have any experience with them at the time. I plan to refactor the entire app and use a MERN stack. Additional features will be added, including the ability of users to save which sites they’ve been to.
-`
+// nhrMap.future = `This was developed without the use of databases, express or any front-end frameworks, as I did not have any experience with them at the time. I plan to refactor the entire app and use a MERN stack. Additional features will be added, including the ability of users to save which sites they’ve been to.
+// `
 export default projects
