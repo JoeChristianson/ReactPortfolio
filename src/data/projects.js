@@ -34,7 +34,7 @@ const puxhub = new Project("Pux Hub","","puxhub.png",[
     "typescript","node","express","react","mongoose","css","heroku"
 ],[],"https://www.puxhub.com/","https://github.com/JoeChristianson/puxhub","")
 
-puxhub.description = "Single page website builder with quick setup and very intuitive editing. The app currently has some active users."
+puxhub.description = "Single page website builder with quick setup and very intuitive editing. Pages are built using modular section rows that allow what you see is what you get editing for turning sections on and off, reordering them, changing out content,  and editing styles. Currently two templates are live, but others are currently underdevelopment. The app has some active users and can take subscription payments through Stripe."
 puxhub.role = "I developed this individually. "
 puxhub.future = "I will continue adding themes and additional components. I have started with some unit testing and am currently working towards full code coverage."
 
